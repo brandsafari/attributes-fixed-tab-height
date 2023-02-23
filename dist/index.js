@@ -1,0 +1,1 @@
+(()=>{window.Webflow||(window.Webflow=[]);window.Webflow.push(()=>{let n=document.querySelector("[brs-fixedtabs-element='tabs']").querySelector(".w-tab-content"),o=Array.from(n.querySelectorAll(".w-tab-pane")),e=0;o.forEach(t=>{t.style.display="block";let{height:l}=t.getBoundingClientRect();l>e&&(e=l),t.style.display=""}),n.style.height=e+"px"});})();
